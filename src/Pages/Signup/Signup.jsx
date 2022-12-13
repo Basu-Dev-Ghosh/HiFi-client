@@ -18,7 +18,7 @@ const Signup = () => {
   const createUser = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("https://hifisocialmedia.herokuapp.com/adduser", {
+      const res = await axios.post("https://hifi-server.onrender.com/adduser", {
         name,
         email,
         password,
