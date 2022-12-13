@@ -17,7 +17,7 @@ const Navbar = () => {
 
   const isLoggedin = async () => {
     try {
-      const res = await axios.get("https://hifi-server.onrender.com//islogin", {
+      const res = await axios.get("https://hifi-server.onrender.com/islogin", {
         withCredentials: true,
       });
       if (res.status === 200) {
