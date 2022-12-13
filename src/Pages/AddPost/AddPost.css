@@ -1,0 +1,122 @@
+.addpost-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+.addpost-form{
+    width: 700px;
+    height: auto;
+    margin: 10px;
+    margin-top:60px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #fff;
+}
+.addpost-header{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.addpost-header h4{
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 25px;
+    text-align: center;
+    flex: 1;
+}
+.addpost-header i{
+    color: black !important;
+    text-align: right !important;
+    font-size: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.addpost-header i:hover{
+    color: red !important;
+}
+.addpost-body form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form .text-input{
+    background-color: #fff;
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    line-height: 10px;
+}
+.text-input input{
+    
+    font-size: 15px;
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+}
+.image-input{
+    width: 90%;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.image-input label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7%;
+    cursor: pointer;
+    background: #fbc2eb;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(251, 194, 235, 1), rgba(166, 193, 238, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(251, 194, 235, 1), rgba(166, 193, 238, 1));
+    border-radius: 50%;
+}
+.image-input label i{
+    color: rgb(255, 255, 255) !important;
+    font-size: 20px;
+}
+.image-input input[type=file]{
+    width: 0%;
+    visibility: hidden;
+}
+.addpost-body .addpost-profile{
+    width: 100%;
+    padding: 27px;
+    font-size: 20px;
+    color: rgb(50, 43, 43);
+}
+.preview-image{
+    padding: 0;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+.preview-image img{
+    width: 90%;
+    height: auto;
+}
+.submit-button{
+    margin-top: 40px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.submit-button button{
+    flex: 1;
+    padding: 7px;
+
+}
+@media screen and (max-width: 910px){
+    .image-input label{
+        width: 14%;
+    }
+}

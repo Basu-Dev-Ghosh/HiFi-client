@@ -1,0 +1,27 @@
+.gradient-custom-2 {
+    margin-top: 30px!important;
+    /* fallback for old browsers */
+    background: #822167;
+
+    background: -webkit-linear-gradient(to right, rgb(255, 0, 183), rgb(1, 78, 211)) !important;
+    
+    background: linear-gradient(to right, rgb(190, 2, 2), rgb(6, 48, 119));
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(159, 8, 8, 0.19);
+    };
+
+    .profile-pic{
+        width: 100% !important;
+        height: auto !important;
+        
+    }
+    .col h3 i{
+        color: red !important;
+        margin-left: 20px !important;
+    }
+    @media screen and (max-width: 450px){
+        .followers{
+            font-size: 8px;
+            margin-top: 10px;
+            justify-content: flex-end !important;
+        }
+    }

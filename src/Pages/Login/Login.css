@@ -1,0 +1,97 @@
+body{
+    background: #FFEFBA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+.login{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffff;
+    color: #000 !important;
+
+}
+.login-container{
+    font-family: 'Julius Sans One', sans-serif;
+    background: #ECE9E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+    min-width: 400px;
+    padding: 30px;
+    border-radius: 14px;
+    color: #000;
+}
+form h2{
+    font-weight: bold;
+    letter-spacing: 10px;
+    padding-bottom: 15px;
+}
+.login-icon{
+    color: rgb(62, 62, 255) !important;
+    padding: 20px !important;
+}
+.form-outline .form-control{
+background-color: #000 !important;
+border: none;
+outline: none !important;
+padding: 10px;
+border-radius: 10px;
+border-bottom: 1px solid #fff;
+text-align: center;
+font-family: monospace;
+font-weight: bold;
+font-size: 15px;
+color: #ffff !important;
+transition: .3s ease-in;
+}
+.form-outline .form-control:focus{
+    outline:none !important;
+    transform: scale(1.1);
+}
+.form-button{
+    min-width: 100% !important;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: rgb(71, 183, 231);
+    margin-bottom: 20px;
+    border: 0;
+    color: #000;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: .3s ease-in;
+}
+.form-button:active{
+    transform: scale(.7);
+}
+.login-icon:hover{
+   color: red!important;
+}
+
+
+.text-container h1{
+    font-size: 200px;
+    font-family: 'Coming Soon', cursive;
+    color: #000;
+}
+.text-container p{
+    font-size: 20px;
+    font-family: 'Coming Soon', cursive;
+    color: #000;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+@media screen and (max-width: 781px){
+    .text-container{
+        display: none;
+    }
+    .login-container{
+        min-width: 320px;
+    }
+}
